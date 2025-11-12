@@ -31,7 +31,8 @@ e1candidate.json
 
 All these files are generated based on PrimeKG and can be used directly to reproduce the results reported in our paper.
 
-#Requirements
+
+# Requirements
 python                  3.9.18
 torch                     2.0.1
 tensorboardX              2.5.1

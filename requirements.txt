@@ -1,0 +1,4 @@
+python                  3.9.18
+torch                     2.0.1
+tensorboardX              2.5.1
+

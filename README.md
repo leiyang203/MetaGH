@@ -46,9 +46,8 @@ To reproduce the few-shot drug repurposing experiments presented in this work, p
 
 Before training the model, you need to construct the task-based datasets (support/query sets) used in the MetaGH framework.
 Run the following command to generate all necessary files:
-
+```bash
 python data_process.py
-
 
 This script automatically processes the original PrimeKG dataset and produces the few-shot task splits used in our experiments, including:
 
@@ -65,7 +64,7 @@ All generated files will be saved under the data/ directory by default.
 2️⃣ Train and Evaluate the Model
 
 After generating the datasets, execute the following command to start model training and evaluation:
-
+```bash
 python main.py
 
 

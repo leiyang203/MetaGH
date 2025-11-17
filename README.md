@@ -50,17 +50,7 @@ Run the following command to generate all necessary files:
 python data_process.py
 ```
 
-This script automatically processes the original PrimeKG dataset and produces the few-shot task splits used in our experiments, including:
-
-train_tasks.json
-
-valid_tasks.json
-
-test_tasks.json
-
-and the corresponding entity/relation mappings.
-
-All generated files will be saved under the data/ directory by default.
+This script automatically processes the original PrimeKG dataset and produces the few-shot task splits used in our experiments
 
 2️⃣ Train and Evaluate the Model
 
@@ -83,7 +73,7 @@ Automatic logging of performance results
 
 After successful execution, the following outputs will be available:
 
-Model checkpoints (.pth files) under the checkpoints/ directory
+Model checkpoints under the checkpoints/ directory
 
 Evaluation logs and metrics in the logs/ directory
 
